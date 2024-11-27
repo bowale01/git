@@ -1,18 +1,24 @@
 ## Git Workflow
+
 Git Workflow refers to a structured process or set of practices for managing branches, commits, and collaboration in a Git-based version control system. It defines how developers interact with a Git repository to work on and deliver code efficiently. Common Git workflows include:
 
-Centralized Workflow
+### 1. Centralized Workflow
 
-Single main branch (e.g., master or main) where all commits are pushed.
-Simple, but not ideal for large teams due to risk of conflicts.
-Feature Branch Workflow
+ 
+    #### . Single main branch (e.g., master or main) where all commits are pushed.
+    #### . Simple, but not ideal for large teams due to risk of conflicts.
+   
+### 2. Feature Branch Workflow
 
-Each feature is developed in its own branch.
-Merges are done into the main branch after review/testing.
-Gitflow Workflow
+    ####  . Each feature is developed in its own branch.
+    ####  . Merges are done into the main branch after review/testing.
 
-Uses dedicated branches for features, releases, and bug fixes.
+
+### 3. Gitflow Workflow
+
+    #### . Uses dedicated branches for features, releases, and bug fixes.
 Structure:
+
 main for production code.
 develop for integration.
 Feature, hotfix, and release branches for specific tasks.
